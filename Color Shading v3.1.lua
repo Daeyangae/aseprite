@@ -155,13 +155,13 @@ local function calculateColors(baseColor)
   coreColor = baseColor;
 
   -- MIX COLORS
-  M1 = colorShift(baseColor, 0, 0, 0, 0, 0.142);
-  M2 = colorShift(M1, 0, 0, 0, 0, 0.142);
-  M3 = colorShift(M2, 0, 0, 0, 0, 0.142);
-  M4 = colorShift(M3, 0, 0, 0, 0, 0.142);
-  M5 = colorShift(M4, 0, 0, 0, 0, 0.142);
-  M6 = colorShift(M5, 0, 0, 0, 0, 0.142);
-  M7 = colorShift(M6, 0, 0, 0, 0, 0.142);
+  M1 = colorShift(baseColor, 0, 0, 0, 0, 0.125);
+  M2 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 2);
+  M3 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 3);
+  M4 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 4);
+  M5 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 5);
+  M6 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 6);
+  M7 = colorShift(baseColor, 0, 0, 0, 0, 0.125 * 7);
 
   -- -- SHADING COLORS
   S1 = colorShift(baseColor, 0, 0.3, -0.6, -0.6, 0);
